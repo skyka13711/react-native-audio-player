@@ -1,0 +1,25 @@
+
+
+export enum NativeActions {
+  COMPLETION = "COMPLETION",
+  ERROR = "ERROR",
+  RESUME = "RESUME",
+  PAUSED = "PAUSED",
+  STARTED = "STARTED",
+}
+
+export enum PlayerEvents {
+  DURATION_UPDATE = 'DURATION_UPDATE',
+  ERROR = "ERROR",
+  UPDATE_CURRENT_TIME = "UPDATE_CURRENT_TIME",
+  CHANGE_STATE = "CHANGE_STATE"
+}
+
+export enum PlayerState {
+  PLAY = "PLAY",
+  PAUSED = "PAUSED",
+  COMPLETION = "COMPLETION",
+  INITIAL = "INITIAL",
+  READY = "READY",
+  ERROR = "ERROR"
+}
